@@ -54,8 +54,6 @@ async function run() {
         options
       );
 
-      //   const result = await profileCollection.insertOne(profileInfo);
-      //   console.log("Hitting the all the file", profileInfo);
       res.json(result);
     });
 
