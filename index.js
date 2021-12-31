@@ -29,7 +29,6 @@ async function run() {
       content: "No bytes, no problem. Just insert a document, in MongoDB",
     };
     app.put("/edit/:_id", async (req, res) => {
-      // app.put("/edit", async (req, res) => {
       const id = req.params._id;
       const data = req.body;
       const profilePicData = req.files.profilePic.data;
